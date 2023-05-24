@@ -1,0 +1,13 @@
+{
+  "name": "node-with-rust",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-rust": "cargo build --release",
+    "start" : "node benchmark/index.js"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3"
+  }
+}
